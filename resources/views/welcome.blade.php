@@ -1,11 +1,11 @@
 @extends('layouts.app')
-{{-- {{ action="{{ route('todo.store') }}" --}}
+
 @section('content')
 
     <div class="flex justify-center">
         <div class="w-8/12 bg-white shadow-md p-6 rounded-lg">
             <h1 class='text-3xl mb-6'>Todo App</h1>
-            <form  method="post" class="mb-4">
+            <form action="{{ route('todo.store') }}" method="post" class="mb-4">
                 @csrf
                 <div class="mb-4">
                     <label for="body" class="sr-only">Body</label>
