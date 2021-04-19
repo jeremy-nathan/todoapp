@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Todo App</title>
 </head>
-<body>
+<body class="bg-gray-100 pt-8">
     @yield('content')
 </body>
 </html>
