@@ -23,7 +23,17 @@
                     <button type="submit" class="bg-green-500 shadow-md focus:outline-none focus:bg-green-600 text-white px-4 py-2 rounded font-medium">Add</button>
                 </div>
             </form>
-            <h2 class="text-2xl mb-2">List of Todo Items:</h2>
+            <div class="flex mb-2">
+                <h2 class="text-2xl mr-3">List of Todo Items:</h2>
+                @if ($todo->count())
+                    <form action="{{ route('clear') }}" method="post">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="bg-red-500 shadow-md focus:outline-none focus:bg-red-600 text-white px-4 py-2 rounded font-medium">Delete all</button>
+                    </form>
+                @endif
+
+            </div>
 
             @if ($todo->count())
                 @foreach ($todo as $item)

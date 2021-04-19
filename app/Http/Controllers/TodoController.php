@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Todo;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class TodoController extends Controller
 {
@@ -97,5 +98,13 @@ class TodoController extends Controller
         $todo->delete();
 
         return back();
+    }
+
+    public function clear(){
+
+        DB::table('todos')->truncate();
+
+        return back();
+
     }
 }
