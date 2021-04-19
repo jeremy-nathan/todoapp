@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Todo;
 use Illuminate\Http\Request;
 
 class TodoController extends Controller
@@ -13,7 +14,10 @@ class TodoController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $todos = Todo::latest()->get();
+        return view('welcome',[
+            'todo' => $todos
+        ]);
     }
 
     /**
@@ -34,7 +38,16 @@ class TodoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'title' => 'required'
+        ]);
+
+        $todo = Todo::create([
+            'title' => $request->title,
+            'completed' => 0
+        ]);
+
+        return back();
     }
 
     /**
