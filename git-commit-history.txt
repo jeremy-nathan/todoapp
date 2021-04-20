@@ -1,0 +1,109 @@
+commit ccc29618a98e589176b37a76c17bba68b32cabbb
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: GitHub <noreply@github.com>
+
+    Add instructions in readme.md
+
+commit 0f829552a7b833eecd41db833c72e4d7a462744d
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Generate git log
+    
+    Also removed it from the .gitignore file
+
+commit 695d0ff77de594fd2c6ba5626769609e4c6758c5
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add test cases
+
+commit 9d5c55c8f60011cdb89d9185d448c5c16201641e
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add Factory class for Todo model
+
+commit 40def3eed9e293783c012897c3747fd287ea5b1f
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Specify the valid routes in web.php
+
+commit c17236ed7d2a133529467a506424af1d757f3cff
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Added comment to TodoController
+
+commit d9c010223b945180cb43dad549664604cd56d618
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add factory for Todo model
+
+commit 6af47e7143e5161e8fada880a98dcfa91c38e3ec
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add custom function to controller to truncate database table
+
+commit 88a0fe2f2d73bcb877af40856ff6217cf7c072a7
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add redirect method to delete function
+
+commit 93bd332ffb7c3acf033902e1067ac3e748cc4872
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add update and delete operations
+
+commit 0e4fc5fb1d4b67d28ddcaa1d921aa2265d4bc87d
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add validation, configure blade file to be dynamic
+
+commit 5b243c36856b84970b10781d308447f871447cb9
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add action attribute to form
+
+commit 5a64919bfae43459b73fc41ddd84900ea8618b7b
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Made UI form
+
+commit eae33054be01e587841a0678a87a438c90698cd3
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Register controller and resource routes
+
+commit 76987caf1b20d8a6df07cab229500d35cf1b3b39
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Remove welcome.blade.php contents
+
+commit c233d12689eb533de1750eb77659408b9f7c38e7
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Define layout file
+
+commit d41fa689798bafcd9945dee8661bb3f96a171d4f
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Create Model and migration
+
+commit 5fc23f6bbf7c150b1f9405473894ddbbf2ce6777
+Author: Jeremy Nathan <jeremy.nathan1@gmail.com>
+Commit: Jeremy Nathan <jeremy.nathan1@gmail.com>
+
+    Add all files to repo
