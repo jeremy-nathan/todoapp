@@ -14,4 +14,6 @@ use App\Http\Controllers\TodoController;
 |
 */
 Route::delete('todo/clear',[TodoController::class,'clear'])->name('clear');
-Route::resource('todo',TodoController::class);
+Route::resource('todo',TodoController::class)->except([
+    'create', 'show', 'edit'
+]);
