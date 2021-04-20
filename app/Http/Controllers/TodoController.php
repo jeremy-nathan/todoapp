@@ -48,7 +48,7 @@ class TodoController extends Controller
             'completed' => 0
         ]);
 
-        return back();
+        return back(); //Returns status code 302, since its a redirect
     }
 
     /**
