@@ -1,3 +1,5 @@
 /vendor
 .env
 /node_modules
+log.txt
+.phpunit.result.cache
