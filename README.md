@@ -34,6 +34,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 7. Configure database connections and credentials in __.env__ file.
+- Please make sure that the database is manually created first.
 8. Run database migrations
 ```sh
 php artisan migrate
